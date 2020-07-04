@@ -1,0 +1,38 @@
+#普通数据的配置
+name: bohai
+
+#对象的配置
+person:
+  name: bohai
+  age: 19
+  addr: aaaaa
+
+#行内对象配置
+person1: {name: bohai,age: 18,addr: beijing}
+
+#配置数据、集合（普通字符串）
+city:
+  - aaaa
+  - bbbb
+  - cccc
+
+city2: [aaa,bbb,ccc]
+
+#配置数据、集合（对象数据）
+stu:
+  - name: bohai
+    age: 18
+    addr: gd
+  - name: tom
+    age: 19
+    addr: nj
+
+stu2: [{name: bohai,age: 18,addr: gd},{name: tom,age: 19,addr: nj}]
+
+#Map配置
+map:
+  key1: val1
+  key2: val2
+
+server:
+  port: 8089
